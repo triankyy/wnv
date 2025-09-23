@@ -1,7 +1,7 @@
 return {
-  "mfussenegger/nvim-lint",
+  "IogaMaster/neocord",
   event = "VeryLazy",
   config = function()
-    require "configs.lint"
+    require "configs.neocord"
   end,
 }

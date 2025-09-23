@@ -14,6 +14,8 @@ local servers = {
   "jsonls",
   "csharp_ls",
   "jdtls",
+  "qmlls",
+  "hyprls",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 
