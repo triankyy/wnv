@@ -1,0 +1,3 @@
+[submodule "plugin/neocord"]
+	path = plugin/neocord
+	url = https://github.com/triankyy/neocord
