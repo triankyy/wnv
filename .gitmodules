@@ -1,3 +1,6 @@
 [submodule "plugin/neocord"]
 	path = plugin/neocord
 	url = https://github.com/triankyy/neocord
+[submodule "pywal"]
+	path = pywal
+	url = https://github.com/NvChad/pywal
