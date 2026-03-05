@@ -2,7 +2,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local merge_tb = vim.tbl_deep_extend
-local lspconfig = require "lspconfig"
 
 local servers = {
   "tailwindcss",
@@ -33,7 +32,9 @@ for _, lsp in ipairs(servers) do
     opts = merge_tb("force", settings, opts)
   end
 
-  lspconfig[lsp].setup(opts)
+  -- lspconfig[lsp].setup(opts)
+  vim.lsp.config(lsp, opts)
+  vim.lsp.enable(lsp)
 end
 
 -- configuring single server, example: typescript
